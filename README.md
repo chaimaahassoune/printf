@@ -1,6 +1,6 @@
 # 0x11. C - printf
 
-| ### Concepts|
+|  **Concepts**|
 |--------|
 |For this project, we expect you to look at these concepts:<br> * Group Projects <br> * Pair Programming - How To <br> * Technical Writing|
 ## Background Context
@@ -39,6 +39,8 @@ Write your own printf function.
 * va_arg (man 3 va_arg)
 ### Compilation
 * Your code will be compiled this way:
-<span style="color:red"> **$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c**</span>
+```console
+$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
+
 * As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
 * Our main files will include your main header file (main.h): #include main.h 
