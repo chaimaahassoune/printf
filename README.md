@@ -41,6 +41,6 @@ Write your own printf function.
 * Your code will be compiled this way:
 ```console
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
-'''
+```console
 * As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
 * Our main files will include your main header file (main.h): #include main.h 
