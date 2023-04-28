@@ -13,9 +13,9 @@ int _printf(const char *format, ...)
 {
 	int counter = 0;
 	char *string;
+	va_list arg;
 
 	va_arg(arg, char *);
-	va_list arg;
 	va_start(arg, format);
 
 
